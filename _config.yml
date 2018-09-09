@@ -1,0 +1,221 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+
+# Site
+# 博客的标题
+title: 程序猿的脑洞
+# banner显示的子标题
+subtitle: 脑洞大开
+
+# 博客介绍（同时用于seo）
+description: 技术的胡思乱想
+
+language: zh-cn
+timezone:
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://blog.51hpz.com
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+
+
+
+# banner显示的简短介绍
+subtitle_desc: 思考技术，产品，数据的关系，享受程序猿的脑洞
+
+# seo关键字
+keywords:  java,技术,产品,数据,前端, 程序员, 前端开发, 全栈开发, linux, javascript
+
+
+
+# 个人介绍
+introduction: 技术改变生活
+
+# 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
+favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
+
+# 博客的左上角logo图标，支持本地及在线两种方式
+logo: http://oo12ugek5.bkt.clouddn.com/images/logo-text-white.png
+
+# 头像/二维码（用于显示在底部）二选一
+avatar: https://s33.postimg.cc/8oegc7ekf/qrcode_for_gh_30740ff0081a_430.jpg
+
+
+# 文章的默认封面
+default_cover: http://oo12ugek5.bkt.clouddn.com/images/default_cover.png
+
+# header 的背景图
+header_cover: http://oo12ugek5.bkt.clouddn.com/blog/images/banner-bg.jpg
+
+# 404 页面的背景图
+error_page_bg: http://oo12ugek5.bkt.clouddn.com/blog/images/dogs.jpg
+
+# 页面加载loading图标
+loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
+
+menu:
+  home: / 
+  archive: /archives
+  docs: https://blog.51hpz.com/mywiki/
+  about: /about
+
+# 站长信息
+author:
+  name: zhangxuewen
+  link: https://github.com/zhangxuewen
+# 用于页面 footer 的站长信息
+about:
+  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享的一些程序猿的脑洞，欢迎点击右下角订阅 rss。
+  address: beijing, China
+  email: zhang1234xuewen@163.com
+
+cnzz_statistic: true
+
+  # Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+
+theme: hexo-theme-skapp
+
+# Sass
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
+
+# Autoprefixer
+autoprefixer:
+  exclude:
+    - '*.min.css'
+  browsers:
+    - 'last 2 versions'
+
+# Lunr
+lunr:
+  field: all
+  fulltext: false
+  path: assets/lunr/
+
+# filter_cleanup
+hfc_useref:
+  enable: true
+  concat: true
+
+hfc_html:
+  enable: true
+  exclude:
+
+hfc_css:
+  enable: true
+  exclude: 
+    - '*.min.css'
+
+hfc_js:
+  enable: true
+  mangle: true
+  exclude: 
+    - '*.min.js'
+
+hfc_img:
+  enable: false
+  interlaced: false
+  multipass: false
+  optimizationLevel: 2
+  pngquant: false
+  progressive: false
+
+hfc_favicons:
+  enable: false
+  src: img/blog-logo.png
+  target: img/
+  icons:
+    android: true
+    appleIcon: true
+    appleStartup: false
+    coast: false
+    favicons: true
+    firefox: false
+    opengraph: false
+    windows: true
+    yandex: false
+
+gitTalk:
+  clientId: 3045be734068918d5ad3
+  clientSecret: c4089bee58fa815358cf77f06d3df3cc8df76b5f
+  repo: myblog
+  owner: zhangxuewen  
+  admin: 
+    - zhangxuewen
+
+# Deployment  https://postimages.org/
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repo: https://github.com/zhangxuewen/zhangxuewen.github.com.git
+  branch: master
