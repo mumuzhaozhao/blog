@@ -33,7 +33,7 @@ keywords:  java,技术,产品,数据,前端, 程序员, 前端开发, 全栈开�
 
 
 # 个人介绍
-introduction: 技术改变生活
+introduction: 产品改变生活
 
 # 博客的favicon图标，支持本地及在线两种方式，本地请将图标放置于 themes/hexo-theme-skapp/source/img 目录下
 favicon_ico: http://oo12ugek5.bkt.clouddn.com/blog/images/favicon.ico
@@ -60,20 +60,18 @@ loader_img: http://oo12ugek5.bkt.clouddn.com/blog/images/loader.gif
 menu:
   home: / 
   archive: /archives
-  docs: https://blog.51hpz.com/mywiki/
   about: /about
 
 # 站长信息
 author:
-  name: zhangxuewen
-  link: https://github.com/zhangxuewen
+  name: mumuzhaozhao
+  link: https://github.com/mumuzhaozhao
 # 用于页面 footer 的站长信息
 about:
-  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享的一些程序猿的脑洞，欢迎点击右下角订阅 rss。
+  info: 本站是基于 Hexo 搭建的静态资源博客，主要用于分享的一些产品的脑洞，欢迎点击右下角订阅 rss。
   address: beijing, China
-  email: zhang1234xuewen@163.com
+  email: 514840693@qq.com
 
-cnzz_statistic: true
 
   # Feed Atom
 feed:
@@ -205,17 +203,17 @@ hfc_favicons:
     windows: true
     yandex: false
 
-gitTalk:
-  clientId: 3045be734068918d5ad3
-  clientSecret: c4089bee58fa815358cf77f06d3df3cc8df76b5f
-  repo: myblog
-  owner: zhangxuewen  
-  admin: 
-    - zhangxuewen
+# gitTalk:
+#   clientId: 3045be734068918d5ad3
+#   clientSecret: c4089bee58fa815358cf77f06d3df3cc8df76b5f
+#   repo: myblog
+#   owner: zhangxuewen  
+#   admin: 
+#     - zhangxuewen
 
 # Deployment  https://postimages.org/
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/zhangxuewen/zhangxuewen.github.com.git
+  repo: https://github.com/mumuzhaozhao/mumuzhaozhao.github.com.git
   branch: master
