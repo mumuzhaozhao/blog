@@ -2,15 +2,15 @@
 title:   hello hexo
 cover: 'http://oxnuwmm3w.bkt.clouddn.com/hello-world.jpeg'
 author:
-  nick: zhangxuewen
-  link: 'https://www.github.com/zhangxuewen'
+  nick: mumuzhaozhao
+  link: 'https://www.github.com/mumuzhaozhao'
 editor:
-  name: zhangxuewen
-  link: 'https://www.github.com/zhangxuewen'
+  name: mumuzhaozhao
+  link: 'https://www.github.com/mumuzhaozhao'
 date: 2018-08-26 22:02:48
 tags: hexo
-categories: 技术积累
+categories: 产品技术
 subtitle:  
 ---
 
-用了一天的时间把博客从 jelly迁移到了hexo
+用了一天的时间，在老公&老师的帮助下，拥有了第一个博客，后面要加油！

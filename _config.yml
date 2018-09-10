@@ -5,19 +5,19 @@
 
 # Site
 # 博客的标题
-title: 程序猿的脑洞
+title: 四维空间
 # banner显示的子标题
-subtitle: 脑洞大开
+subtitle: 四维空间
 
 # 博客介绍（同时用于seo）
-description: 技术的胡思乱想
+description: 探求一切未知的未来
 
 language: zh-cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.51hpz.com
+url: http://lpblog.51hpz.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -25,10 +25,10 @@ permalink_defaults:
 
 
 # banner显示的简短介绍
-subtitle_desc: 思考技术，产品，数据的关系，享受程序猿的脑洞
+subtitle_desc: 思考技术，产品，人生
 
 # seo关键字
-keywords:  java,技术,产品,数据,前端, 程序员, 前端开发, 全栈开发, linux, javascript
+keywords:  技术,产品,数据,前端, 产品经理,prd,xmind,axure rp
 
 
 
